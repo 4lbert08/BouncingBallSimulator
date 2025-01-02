@@ -11,7 +11,7 @@ public class BallPresenter {
     private final static int period = (int) (1000 * dt);
     private final BallDisplay ballDisplay;
     private final BallSimulator simulator;
-    private  List<Ball> balls;
+    private List<Ball> balls;
     private Ball grabbedBall;
 
     public BallPresenter(BallDisplay ballDisplay, BallSimulator simulator) {
